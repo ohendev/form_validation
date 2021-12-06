@@ -71,6 +71,6 @@ const validateForm = (event) => {
   const validEmail = validateEmail();
   const validInfo = validateInfo();
   checkCompletion(validName, validEmail, validInfo);
-  event.preventDefault;
+  event.preventDefault();
 };
 submit.addEventListener('click', validateForm);
